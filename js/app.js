@@ -1,3 +1,18 @@
+const message = document.querySelector('.compliment-view');
+const compButton = document.querySelector('.compliment-button');
+
+
+const generatedCompliment = function () {
+	
+}
+
+
+compButton.addEventListener('click', function (e) {
+	message.innerText = generatedCompliment;
+	compButton.innerText = "Compliment Again!"
+})
+
+
 // Updates Copyright Footer
 
 const year = document.querySelector(
