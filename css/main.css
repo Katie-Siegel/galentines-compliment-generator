@@ -1,27 +1,61 @@
 
 html {
-	font-size: 16px;
-	background-color: #4e4187;
+	font-size: 12px;
+	background-color: #621d6e;
 	scroll-behavior: smooth; 
     box-sizing: border-box; 
 }
 
 body {
 	font-family: Poppins, Noto Sans, sans-serif;
-	font-size: 1rem;
-	line-height: 1.2rem;
-	color: #FFC857;
+	font-size: 2rem;
+	line-height: 1.7rem;
+	color: #7d98cd;
 }
 
 h1 {
     font-family: ;
-    font-size: 3rem;
-    color: #00bfb2;
+    font-size: 4rem;
+	line-height: 4.5rem;
+    color: #3d9ad7;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+h3 {
+	font-size: 3rem;
+	line-height: 3.5rem;
+	color: #c06b95;
+}
+
+h4 {
+	font-size: 2.5rem;
+	line-height: 3rem;
 }
 
 .content-wrapper {
-    width: 80%;
+    width:85%;
+	margin: 0 auto;
     text-align: center;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.compliment-view {
+
+}
+
+.compliment-button {
+	width: 80%;
+	padding: 0;
+	border: 7px solid #d2528f;
+	border-radius: 50px;
+
 }
 
 @media only screen and (min-width: 768px) {
