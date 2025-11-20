@@ -11,25 +11,34 @@ function adjRandom() {
 function nounRandom() {
 	const noun = ["cat", "basket", "fairy", "stallion"];
 	return noun[Math.floor(Math.random() * noun.length)];
-};s
+};
 	
-function ideaOneRandomRandom() {
+function ideaOneRandom() {
 	const ideaOne = ['Hope', 'Wishes', 'Starlight', 'Questions'];
 	return ideaOne[Math.floor(Math.random() * ideaOne.length)];
 };
 	
-function ideaTwoRandomRandom() {
-	const ideaTwo = [''];
+function ideaTwoRandom() {
+	const ideaTwo = ['Regal', 'Fluff'];
 	return ideaTwo[Math.floor(Math.random() * ideaTwo.length)];
 };
-	
-// This is structured incorrectly. Look up in notes.
-const generatedCompliment = `You ${adjRandom} ${nounRandom} of ${ideaOneRandom} and ${ideaTwoRandom}!`
 
-compButton.addEventListener('click', function (e) {
-	message.innerText = generatedCompliment;
-	compButton.innerText = "Compliment Again!"
-})
+function generatedCompliment() {
+	return `You ${adjRandom()} ${nounRandom()} of ${ideaOneRandom()} and ${ideaTwoRandom()}!`;
+}
+
+compButton.addEventListener('click', function () {
+	const compliment = message.innerText;
+	if (compliment === "") {
+		message.innerText = generatedCompliment();
+		compButton.innerText = "Compliment Again!"
+	} else {
+		let newCompliment = document.createElement("p");
+		newCompliment.innerText = generatedCompliment();
+		message.append(newCompliment);
+	}
+
+});
 
 
 // Updates Copyright Footer
