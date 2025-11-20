@@ -11,7 +11,7 @@ function adjRandom() {
 function nounRandom() {
 	const noun = ["cat", "basket", "fairy", "stallion"];
 	return noun[Math.floor(Math.random() * noun.length)];
-};
+};s
 	
 function ideaOneRandomRandom() {
 	const ideaOne = ['Hope', 'Wishes', 'Starlight', 'Questions'];
@@ -23,7 +23,8 @@ function ideaTwoRandomRandom() {
 	return ideaTwo[Math.floor(Math.random() * ideaTwo.length)];
 };
 	
-const generatedCompliment = `You {adjRandom} {nounRandom} of {ideaOneRandom} and {ideaTwoRandom}!`
+// This is structured incorrectly. Look up in notes.
+const generatedCompliment = `You ${adjRandom} ${nounRandom} of ${ideaOneRandom} and ${ideaTwoRandom}!`
 
 compButton.addEventListener('click', function (e) {
 	message.innerText = generatedCompliment;
