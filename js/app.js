@@ -4,7 +4,7 @@ const compButton = document.querySelector('.compliment-button');
 
 
 function adjRandom() {
-	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal'];
+	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal', 'quaint', 'chipper', 'fanciful', 'jubilant', 'zany', 'periwinkle', 'sprightly', 'snug', 'dappled', 'topsy-turvy', 'twinkling', 'fluttery'];
 	return adj[Math.floor(Math.random() * adj.length)];
 };
 	
