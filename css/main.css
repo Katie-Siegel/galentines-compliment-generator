@@ -1,7 +1,7 @@
 
 html {
 	font-size: 16px;
-	background-color: #162a41;
+	background-color: #4e4187;
 	scroll-behavior: smooth;  
 }
 
@@ -9,13 +9,13 @@ body {
 	font-family: Poppins, Noto Sans, sans-serif;
 	font-size: 1rem;
 	line-height: 1.2rem;
-	color: #d1be9c;
-	background-color: #162a41;
+	color: #FFC857;
 }
 
 h1 {
     font-family: ;
     font-size: 3rem;
+    color: #00bfb2;
 }
 
 @media only screen and (min-width: 768px) {
