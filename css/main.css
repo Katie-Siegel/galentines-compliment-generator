@@ -6,15 +6,20 @@ html {
     box-sizing: border-box; 
 }
 
+@font-face {
+	font-family: Violetta;
+	src: url(../des/Violetta.otf);
+}
+
 body {
-	font-family: Poppins, Noto Sans, sans-serif;
+	font-family: 'Violetta', 'Noto Sans', sans-serif;
 	font-size: 2rem;
 	line-height: 1.7rem;
 	color: #7d98cd;
 }
 
 h1 {
-    font-family: ;
+    font-family: 'Violetta', cursive;
     font-size: 4rem;
 	line-height: 4.5rem;
     color: #3d9ad7;
