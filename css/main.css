@@ -13,6 +13,10 @@ body {
 	background-color: #162a41;
 }
 
+h1 {
+    font-family: ;
+    font-size: 3rem;
+}
 
 @media only screen and (min-width: 768px) {
 
