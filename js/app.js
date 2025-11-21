@@ -33,7 +33,7 @@ compButton.addEventListener('click', function () {
 		message.innerText = generatedCompliment();
 		compButton.innerText = "Compliment Again!"
 	} else {
-		let newCompliment = document.createElement("p");
+		let newCompliment = document.createElement("h3");
 		newCompliment.innerText = generatedCompliment();
 		message.append(newCompliment);
 	}
