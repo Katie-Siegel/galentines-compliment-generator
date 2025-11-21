@@ -52,7 +52,12 @@ h4 {
 	align-items: center;
 }
 
+.header{
+	margin: 30px;
+}
+
 .compliment-view {
+	margin: 40px;
 
 }
 
