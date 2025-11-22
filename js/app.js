@@ -11,25 +11,13 @@ function adjRandom() {
 };
 	
 function nounRandom() {
-	const noun = ["cat", "basket", "fairy", "stallion", "red panda", "hedgehog", "quokka", "baby otter", "fennec fox", "dwarf bunny", "pygmy goat", "chinchilla", "sugar glider", "pygmy marmoset", "harvest mouse", "dik-dik (it's a kind of mini antelope)",
-		
-		Philippine tarsier
-		
-		Pika
-		
-		Fluffy & Cuddly
-		
-		Alpaca
-		
-		Himalayan cat
+	const noun = ["cat", "basket", "fairy", "stallion", "red panda", "hedgehog", "quokka", "baby otter", "fennec fox", "dwarf bunny", "pygmy goat", "chinchilla", "sugar glider", "pygmy marmoset", "harvest mouse", "dik-dik (it's a kind of mini antelope)", "philippine tarsier", "pika", "alpaca", "himalayan cat", 
 		
 		Samoyed dog
 		
 		Lionhead rabbit
 		
 		American guinea pig
-		
-		Unusual but Adorable
 		
 		Axolotl
 		
