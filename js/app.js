@@ -21,7 +21,7 @@ function ideaOneRandom() {
 };
 	
 function ideaTwoRandom() {
-	const ideaTwo = ['Regal', 'Fluff'];
+	const ideaTwo = ['Hope', 'Wishes', 'Starlight', 'Questions', 'Regality', 'Fluff', 'Wonderment', 'Serendipity', 'Whimsy', 'Gleamspell', 'Daydreamery', 'Mirthcraft', 'Star-thought', 'Moonfancy', 'Glimmermind', 'Imaginarium', 'Dreamfrost', 'Sparklelogic', 'Wanderthought', 'Breezewish', 'Glowfeeling'];
 	return ideaTwo[Math.floor(Math.random() * ideaTwo.length)];
 };
 
