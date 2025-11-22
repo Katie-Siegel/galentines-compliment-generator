@@ -2,6 +2,8 @@ const message = document.querySelector('.compliment-view');
 const compButton = document.querySelector('.compliment-button');
 
 
+// Getting Friend's Name from the User
+
 // Compliment Generator Formula
 function adjRandom() {
 	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal', 'quaint', 'chipper', 'fanciful', 'jubilant', 'zany', 'periwinkle', 'sprightly', 'snug', 'dappled', 'topsy-turvy', 'twinkling', 'fluttery'];
@@ -9,7 +11,47 @@ function adjRandom() {
 };
 	
 function nounRandom() {
-	const noun = ["cat", "basket", "fairy", "stallion"];
+	const noun = ["cat", "basket", "fairy", "stallion", "red panda", "hedgehog", "quokka", "baby otter", "fennec fox", "dwarf bunny", "pygmy goat", "chinchilla", "sugar glider", "pygmy marmoset", "harvest mouse", "dik-dik (it's a kind of mini antelope)",
+		
+		Philippine tarsier
+		
+		Pika
+		
+		Fluffy & Cuddly
+		
+		Alpaca
+		
+		Himalayan cat
+		
+		Samoyed dog
+		
+		Lionhead rabbit
+		
+		American guinea pig
+		
+		Unusual but Adorable
+		
+		Axolotl
+		
+		Dumbo octopus
+		
+		Pufferfish (smol + round)
+		
+		Sea otter pup
+		
+		Slow loris
+		
+		Soft Woodland Babies
+		
+		Baby deer (fawn)
+		
+		Baby fox (kit)
+		
+		Baby raccoon
+		
+		Chipmunk
+		
+		Flying squirrel];
 	return noun[Math.floor(Math.random() * noun.length)];
 };
 	
@@ -40,6 +82,8 @@ compButton.addEventListener('click', function () {
 
 });
 
+
+// Quote about female friendship
 
 // Updates Copyright Footer
 
