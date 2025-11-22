@@ -16,7 +16,7 @@ function nounRandom() {
 };
 	
 function ideaOneRandom() {
-	const ideaOne = ['Hope', 'Wishes', 'Starlight', 'Questions'];
+	const ideaOne = ['Hope', 'Wishes', 'Starlight', 'Questions', 'Regality', 'Fluff', 'Wonderment', 'Serendipity', 'Whimsy', 'Gleamspell', 'Daydreamery', 'Mirthcraft', 'Star-thought', 'Moonfancy', 'Glimmermind', 'Imaginarium', 'Dreamfrost', 'Sparklelogic', 'Wanderthought', 'Breezewish', 'Glowfeeling'];
 	return ideaOne[Math.floor(Math.random() * ideaOne.length)];
 };
 	
