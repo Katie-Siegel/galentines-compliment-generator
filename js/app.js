@@ -2,7 +2,7 @@ const message = document.querySelector('.compliment-view');
 const compButton = document.querySelector('.compliment-button');
 
 
-
+// Compliment Generator Formula
 function adjRandom() {
 	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal', 'quaint', 'chipper', 'fanciful', 'jubilant', 'zany', 'periwinkle', 'sprightly', 'snug', 'dappled', 'topsy-turvy', 'twinkling', 'fluttery'];
 	return adj[Math.floor(Math.random() * adj.length)];
@@ -46,7 +46,4 @@ compButton.addEventListener('click', function () {
 const year = document.querySelector(
 	'#current-year'
 );
-//Connects footer to code
-
 year.innerHTML = new Date().getFullYear();
-//Pulls new year to update footer
