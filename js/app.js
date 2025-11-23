@@ -26,7 +26,7 @@ function ideaTwoRandom() {
 };
 
 function generatedCompliment() {
-	return `You ${adjRandom()} ${nounRandom()} of ${ideaOneRandom()} and ${ideaTwoRandom()}!`;
+	return `You <span>${adjRandom()} ${nounRandom()}</span> of ${ideaOneRandom()} and ${ideaTwoRandom()}!`;
 }
 
 compButton.addEventListener('click', function () {

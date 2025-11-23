@@ -1,7 +1,7 @@
 
 html {
 	font-size: 12px;
-	background-color: #621d6e;
+	background-color: #ecd2e5;
 	scroll-behavior: smooth; 
     box-sizing: border-box; 
 }
@@ -22,7 +22,7 @@ h1 {
     font-family: 'Violetta', cursive;
     font-size: 4rem;
 	line-height: 4.5rem;
-    color: #3d9ad7;
+    color: #66419f;
 }
 
 h2 {
@@ -33,14 +33,18 @@ h2 {
 h3 {
 	font-size: 3rem;
 	line-height: 3.5rem;
-	color: #c06b95;
+	color: #66419f;
 	padding: 1rem 0;
 }
 
 h4 {
 	font-size: 2.5rem;
 	line-height: 3rem;
-	color: #d2528f;
+	color: #358daa;
+}
+
+span {
+	color: #165476;
 }
 
 .content-wrapper {
