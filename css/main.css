@@ -7,19 +7,19 @@ html {
 }
 
 @font-face {
-	font-family: Violetta;
-	src: url(../des/Violetta.otf);
+	font-family: 'Vanilla Pancake';
+	src: url(../des/vanilla-pancake.otf);
 }
 
 body {
-	font-family: 'Violetta', 'Noto Sans', sans-serif;
+	font-family: 'Vanilla Pancake', 'Noto Sans', sans-serif;
 	font-size: 2rem;
 	line-height: 1.7rem;
 	color: #7d98cd;
 }
 
 h1 {
-    font-family: 'Violetta', cursive;
+    font-family: 'Vanilla Pancake', cursive;
     font-size: 4rem;
 	line-height: 4.5rem;
     color: #66419f;
@@ -68,7 +68,7 @@ header .content-wrapper{
 .compliment-button {
 	width: 90%;
 	padding: 20px;
-	border: 5px solid #d2528f;
+	border: 5px solid #358daa;
 	border-radius: 70px;
 	align-items: center;
 
