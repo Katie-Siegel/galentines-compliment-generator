@@ -46,7 +46,6 @@ compButton.addEventListener('click', function () {
 // Quote about female friendship
 
 // Updates Copyright Footer
-
 const year = document.querySelector(
 	'#current-year'
 );
