@@ -32,6 +32,10 @@ h2 {
 	line-height: 2.5rem;
 }
 
+br .with-space {
+	line-height: 2.5rem;
+}
+
 h3 {
 	font-family: 'Snippet', sans-serif;
 	font-size: 3rem;
