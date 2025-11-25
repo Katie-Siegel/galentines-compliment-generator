@@ -6,7 +6,45 @@ const compButton = document.querySelector('.compliment-button');
 
 // Compliment Generator Formula
 function adjRandom() {
-	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal', 'quaint', 'chipper', 'fanciful', 'jubilant', 'zany', 'periwinkle', 'sprightly', 'snug', 'dappled', 'topsy-turvy', 'twinkling', 'fluttery'];
+	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal', 'quaint', 'chipper', 'fanciful', 'jubilant', 'zany', 'periwinkle', 'sprightly', 'snug', 'dappled', 'topsy-turvy', 'twinkling', 'fluttery', Charmingly chaotic
+
+		Delightfully weird
+		
+		Endearingly dramatic
+		
+		Lovably eccentric
+		
+		Ridiculously adorable
+		
+		Absurdly brilliant
+		
+		Unreasonably charismatic
+		
+		Hilariously insightful
+		
+		Impressively quirky
+		
+		Suspiciously wholesome
+		
+		Dangerously charming
+		
+		Overwhelmingly delightful
+		
+		Surprisingly majestic
+		
+		Outrageously thoughtful
+		
+		Preposterously lovable
+		
+		Almost-too-cute
+		
+		Excessively sparkly
+		
+		Aggressively polite
+		
+		Adorably intimidating
+		
+		Chaotically kind];
 	return adj[Math.floor(Math.random() * adj.length)];
 };
 	
