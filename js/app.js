@@ -48,17 +48,7 @@ function nounRandom() {
 	const noun = ["cat", "basket", "fairy", "stallion", "red panda", "hedgehog", "quokka", "baby otter", "fennec fox", "dwarf bunny", "pygmy goat", "chinchilla", "sugar glider",
 		"pygmy marmoset", "harvest mouse", "dik-dik (it's a kind of mini antelope)", "philippine tarsier", "pika", "alpaca", "himalayan cat", "samoyed dog", "lionhead rabbit",
 		"american guinea pig", "axolotl", "dumbo octopus", "pufferfish", "sea otter pup", "slow loris", "baby deer", "baby fox", "baby raccoon", "chipmunk", "flying squirrel", 'teacup', 'lantern',
-		'thimble',
-		
-		Ribbon
-		
-		Keepsake
-		
-		Locket
-		
-		Marble
-		
-		Quill
+		'thimble', 'ribbon', 'keepsake', 'locket', 'marble', 'quill', 
 		
 		Charmstone
 		
