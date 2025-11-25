@@ -45,7 +45,44 @@ function adjRandom() {
 };
 	
 function nounRandom() {
-	const noun = ["cat", "basket", "fairy", "stallion", "red panda", "hedgehog", "quokka", "baby otter", "fennec fox", "dwarf bunny", "pygmy goat", "chinchilla", "sugar glider", "pygmy marmoset", "harvest mouse", "dik-dik (it's a kind of mini antelope)", "philippine tarsier", "pika", "alpaca", "himalayan cat", "samoyed dog", "lionhead rabbit", "american guinea pig", "axolotl", "dumbo octopus", "pufferfish", "sea otter pup", "slow loris", "baby deer", "baby fox", "baby raccoon", "chipmunk", "flying squirrel"];
+	const noun = ["cat", "basket", "fairy", "stallion", "red panda", "hedgehog", "quokka", "baby otter", "fennec fox", "dwarf bunny", "pygmy goat", "chinchilla", "sugar glider",
+		"pygmy marmoset", "harvest mouse", "dik-dik (it's a kind of mini antelope)", "philippine tarsier", "pika", "alpaca", "himalayan cat", "samoyed dog", "lionhead rabbit",
+		"american guinea pig", "axolotl", "dumbo octopus", "pufferfish", "sea otter pup", "slow loris", "baby deer", "baby fox", "baby raccoon", "chipmunk", "flying squirrel", 'teacup', 'lantern',
+		'thimble',
+		
+		Ribbon
+		
+		Keepsake
+		
+		Locket
+		
+		Marble
+		
+		Quill
+		
+		Charmstone
+		
+		Button
+		
+		Feather
+		
+		Pocketwatch
+		
+		Snowglobe
+		
+		Bauble
+		
+		Satchel
+		
+		Spool
+		
+		Candleholder
+		
+		Music box
+		
+		Doorknocker
+		
+		Bellflower chime];
 	return noun[Math.floor(Math.random() * noun.length)];
 };
 	
