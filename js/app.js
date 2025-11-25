@@ -6,7 +6,8 @@ const compButton = document.querySelector('.compliment-button');
 
 // Compliment Generator Formula
 function adjRandom() {
-	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal', 'quaint', 'chipper', 'fanciful', 'jubilant', 'zany', 'periwinkle', 'sprightly', 'snug', 'dappled', 'topsy-turvy', 'twinkling', 'fluttery', 'charmingly chaotic', 'delightfully weird', 'endearingly dramatic', 
+	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal', 'quaint', 'chipper', 'fanciful', 'jubilant', 'zany', 'periwinkle', 'sprightly', 'snug', 'dappled', 'topsy-turvy',
+		'twinkling', 'fluttery', 'charmingly chaotic', 'delightfully weird', 'endearingly dramatic', 
 		
 		Lovably eccentric
 		
@@ -47,8 +48,8 @@ function adjRandom() {
 function nounRandom() {
 	const noun = ["cat", "basket", "fairy", "stallion", "red panda", "hedgehog", "quokka", "baby otter", "fennec fox", "dwarf bunny", "pygmy goat", "chinchilla", "sugar glider",
 		"pygmy marmoset", "harvest mouse", "dik-dik (it's a kind of mini antelope)", "philippine tarsier", "pika", "alpaca", "himalayan cat", "samoyed dog", "lionhead rabbit",
-		"american guinea pig", "axolotl", "dumbo octopus", "pufferfish", "sea otter pup", "slow loris", "baby deer", "baby fox", "baby raccoon", "chipmunk", "flying squirrel", 'teacup', 'lantern',
-		'thimble', 'ribbon', 'keepsake', 'locket', 'marble', 'quill', 
+		"american guinea pig", "axolotl", "dumbo octopus", "pufferfish", "sea otter pup", "slow loris", "baby deer", "baby fox", "baby raccoon", "chipmunk", "flying squirrel",
+		'teacup', 'lantern', 'thimble', 'ribbon', 'keepsake', 'locket', 'marble', 'quill', 
 		
 		Charmstone
 		
