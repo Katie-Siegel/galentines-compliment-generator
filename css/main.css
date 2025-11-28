@@ -1,7 +1,7 @@
 
 html {
 	font-size: 14px;
-	background-color: #87a0a5;
+	background-color: #5e4d81;
 	scroll-behavior: smooth; 
     box-sizing: border-box; 
 }
@@ -15,14 +15,14 @@ body {
 	font-family: 'Vanilla Pancake', 'Snippet', 'Heebo', sans-serif;
 	font-size: 2rem;
 	line-height: 1.7rem;
-	color: #6f3a28;
+	color: #fbc1cd;
 }
 
 h1 {
     font-family: 'Vanilla Pancake', cursive;
     font-size: 5rem;
 	line-height: 5.5rem;
-    color: #3d5c5f;
+    color: #3fcacf;
 	margin-bottom: 40px;
 }
 
@@ -40,18 +40,18 @@ h3 {
 	font-family: 'Snippet', sans-serif;
 	font-size: 3rem;
 	line-height: 3.5rem;
-	color: #371e30;
+	color: #9fa4dc;
 	padding: 1rem 0;
 }
 
 h4 {
 	font-size: 2.5rem;
 	line-height: 3rem;
-	color: #3d5c5f;
+	color: #3fcacf;
 }
 
 span {
-	color: #7d1d3f;
+	color: #8feeea;
 }
 
 .content-wrapper {
@@ -75,7 +75,7 @@ header .content-wrapper{
 .compliment-button {
 	width: 90%;
 	padding: 20px;
-	border: 5px solid #87a0a5;
+	border: 5px solid #cb81c0;
 	border-radius: 70px;
 	align-items: center;
 
