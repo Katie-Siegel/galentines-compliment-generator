@@ -64,15 +64,13 @@ span {
 	align-items: center;
 }
 
-header .border {
- border: 4px solid #cb81c0;
-}
-
-header .content-wrapper{
+.border {
+	border: 2px solid #cb81c0;
+	width: 100%;
 }
 
 .compliment-view {
-	margin: 40px;
+	margin: 40px 0;
 
 }
 
