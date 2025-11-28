@@ -64,6 +64,10 @@ span {
 	align-items: center;
 }
 
+header .border {
+ border: 4px solid #cb81c0;
+}
+
 header .content-wrapper{
 }
 
