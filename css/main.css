@@ -41,6 +41,7 @@ h3 {
 	font-size: 3rem;
 	line-height: 3.5rem;
 	color: #fbc1cd;
+	margin: 50px 0;
 }
 
 h4 {
@@ -79,10 +80,6 @@ span {
 .border {
 	border: 2px solid #cb81c0;
 	width: 100%;
-}
-
-img {
-
 }
 
 .compliment-view {
