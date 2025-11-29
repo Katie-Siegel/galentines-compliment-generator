@@ -57,6 +57,15 @@ compButton.addEventListener('click', function () {
 
 // Quote about female friendship
 
+function quoteRandom() {
+	const quote = [];
+	return quote[Math.floor(Math.random() * quote.length)]
+}
+
+function updateQuote() {
+	return `${quoteRandom()}`
+}
+
 // Updates Copyright Footer
 const year = document.querySelector(
 	'#current-year'
