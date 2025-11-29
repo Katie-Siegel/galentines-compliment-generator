@@ -34,9 +34,12 @@ function ideaTwoRandom() {
 	return ideaTwo[Math.floor(Math.random() * ideaTwo.length)];
 };
 
+
+//Need to add span color around randomly generated elements
 function generatedCompliment() {
 	return `You ${adjRandom()} ${nounRandom()} of ${ideaOneRandom()} and ${ideaTwoRandom()}!`;
 }
+
 
 compButton.addEventListener('click', function () {
 	const compliment = message.innerText;
