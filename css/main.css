@@ -33,12 +33,7 @@ h2 {
 	font-family: 'Heebo', sans-serif;
 	font-size: 1.3rem;
 	line-height: 1.8rem;
-	padding: 1rem;
 	color: #9fa4dc;
-}
-
-br .with-space {
-	line-height: 2.5rem;
 }
 
 h3 {
@@ -77,9 +72,17 @@ span {
 	align-items: center;
 }
 
+.header-text {
+	padding: 1.5rem 0;
+}
+
 .border {
 	border: 2px solid #cb81c0;
 	width: 100%;
+}
+
+img {
+
 }
 
 .compliment-view {
