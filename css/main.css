@@ -1,7 +1,7 @@
 
 html {
 	font-size: 14px;
-	background-color: #5e4d81;
+	background-color: #cb81c0;
 	scroll-behavior: smooth; 
     box-sizing: border-box; 
 }
@@ -12,10 +12,13 @@ html {
 }
 
 body {
+	width: 85%;
+	margin: 40px auto;
 	font-family: 'Vanilla Pancake', 'Snippet', 'Heebo', sans-serif;
 	font-size: 2rem;
 	line-height: 1.7rem;
 	color: #fbc1cd;
+	background-color: #5e4d81;
 }
 
 h1 {
@@ -23,13 +26,15 @@ h1 {
     font-size: 5rem;
 	line-height: 5.5rem;
     color: #3fcacf;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 h2 {
 	font-family: 'Heebo', sans-serif;
-	font-size: 1.7rem;
-	line-height: 2.5rem;
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	padding: 1rem;
+	color: #9fa4dc;
 }
 
 br .with-space {
@@ -40,14 +45,13 @@ h3 {
 	font-family: 'Snippet', sans-serif;
 	font-size: 3rem;
 	line-height: 3.5rem;
-	color: #9fa4dc;
-	padding: 2rem 0;
+	color: #fbc1cd;
 }
 
 h4 {
 	font-size: 2.5rem;
 	line-height: 3rem;
-	color: #3fcacf;
+	color: #9fa4dc;
 }
 
 span {
@@ -55,9 +59,18 @@ span {
 }
 
 .content-wrapper {
-    width:85%;
+    width: 90%;
 	margin: 40px auto;
     text-align: center;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-details {
+	margin: 40px auto;
+	text-align: center;
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
