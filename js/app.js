@@ -40,6 +40,16 @@ function generatedCompliment() {
 	return `You ${adjRandom()} ${nounRandom()} of ${ideaOneRandom()} and ${ideaTwoRandom()}!`;
 }
 
+// Quote about female friendship
+
+function quoteRandom() {
+	const quote = ["you are the best of us", "hope you have a great day", "princesses are all born girls"];
+	return quote[Math.floor(Math.random() * quote.length)]
+}
+
+function updateQuote() {
+	return `${quoteRandom()}`
+}
 
 compButton.addEventListener('click', function () {
 	const compliment = message.innerText;
@@ -50,21 +60,11 @@ compButton.addEventListener('click', function () {
 		let newCompliment = document.createElement("h3");
 		newCompliment.innerText = generatedCompliment();
 		message.append(newCompliment);
-	}
+	};
+	updateQuote();
 
 });
 
-
-// Quote about female friendship
-
-function quoteRandom() {
-	const quote = [];
-	return quote[Math.floor(Math.random() * quote.length)]
-}
-
-function updateQuote() {
-	return `${quoteRandom()}`
-}
 
 // Updates Copyright Footer
 const year = document.querySelector(
