@@ -40,7 +40,7 @@ function generatedCompliment() {
 	return `You ${adjRandom()} ${nounRandom()} of ${ideaOneRandom()} and ${ideaTwoRandom()}!`;
 }
 
-// Quote about female friendship
+// Quote about female friendship - need to link to HTML elements
 
 function quoteRandom() {
 	const quote = ["you are the best of us", "hope you have a great day", "princesses are all born girls"];
