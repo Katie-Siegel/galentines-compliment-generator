@@ -23,14 +23,12 @@ function nounRandom() {
 };
 	
 function ideaOneRandom() {
-	const ideaOne = ['Hope', 'Wishes', 'Starlight', 'Questions', 'Regality', 'Fluff', 'Wonderment', 'Serendipity', 'Whimsy', 'Gleamspell', 'Daydreamery', 'Mirthcraft', 'Star-thought',
-		'Moonfancy', 'Glimmermind', 'Imaginarium', 'Dreamfrost', 'Sparklelogic', 'Wanderthought', 'Breezewish', 'Glowfeeling'];
+	const ideaOne = ['Daydreamery', 'Mirthcraft', 'Star-thought', 'Moonfancy', 'Glimmermind', 'Imaginarium', 'Dreamfrost', 'Sparklelogic', 'Wanderthought', 'Breezewish', 'Glowfeeling'];
 	return ideaOne[Math.floor(Math.random() * ideaOne.length)];
 };
 	
 function ideaTwoRandom() {
-	const ideaTwo = ['Hope', 'Wishes', 'Starlight', 'Questions', 'Regality', 'Fluff', 'Wonderment', 'Serendipity', 'Whimsy', 'Gleamspell', 'Daydreamery', 'Mirthcraft', 'Star-thought',
-		'Moonfancy', 'Glimmermind', 'Imaginarium', 'Dreamfrost', 'Sparklelogic', 'Wanderthought', 'Breezewish', 'Glowfeeling'];
+	const ideaTwo = ['Hope', 'Wishes', 'Starlight', 'Questions', 'Regality', 'Fluff', 'Wonderment', 'Serendipity', 'Whimsy', 'Gleamspell'];
 	return ideaTwo[Math.floor(Math.random() * ideaTwo.length)];
 };
 
