@@ -35,7 +35,7 @@ function ideaTwoRandom() {
 
 //Need to add span color around randomly generated elements
 function generatedCompliment() {
-	return `You ${adjRandom()} ${nounRandom()} of ${ideaOneRandom()} and ${ideaTwoRandom()}!`;
+	return `You <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!`;
 }
 
 // Quote about female friendship - need to link to HTML elements
@@ -52,11 +52,11 @@ function updateQuote() {
 compButton.addEventListener('click', function () {
 	const compliment = message.innerText;
 	if (compliment === "") {
-		message.innerText = generatedCompliment();
+		message.innerHTML = generatedCompliment();
 		compButton.innerText = "Compliment Again!"
 	} else {
 		let newCompliment = document.createElement("h3");
-		newCompliment.innerText = generatedCompliment();
+		newCompliment.innerHTML = generatedCompliment();
 		message.append(newCompliment);
 	};
 	updateQuote();
