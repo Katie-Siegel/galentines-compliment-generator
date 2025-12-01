@@ -65,6 +65,8 @@ compButton.addEventListener('click', function () {
 
 });
 
+// Add Picture Dontation Function for "Friendship Carousel"
+
 
 // Updates Copyright Footer
 const year = document.querySelector(
