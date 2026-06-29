@@ -1,5 +1,6 @@
 const message = document.querySelector('.compliment-view');
 const compButton = document.querySelector('.compliment-button');
+const quoteMessage = document.querySelector('.quote');
 
 
 // Getting Friend's Name from the User
@@ -37,7 +38,7 @@ function generatedCompliment() {
 	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> <br>of <span>${ideaOneRandom()}</span> <br>and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
-// Quote about female friendship - need to link to HTML elements
+// Quote about female friendship
 
 function quoteRandom() {
 	const quote = ["you are the best of us", "hope you have a great day", "princesses are all born girls"];
@@ -45,8 +46,12 @@ function quoteRandom() {
 }
 
 function updateQuote() {
-	return `${quoteRandom()}`
+	const quote = quoteMessage.innerText; 
+	quoteMessage.innerText = quoteRandom("h3");
 }
+
+
+// Compliment Button Function
 
 compButton.addEventListener('click', function () {
 	const compliment = message.innerText;
