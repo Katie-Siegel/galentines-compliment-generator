@@ -48,11 +48,6 @@ h4 {
   color: #9fa4dc;
 }
 
-span {
-  color: #3fcacf;
-  text-decoration: underline;
-}
-
 .content-wrapper {
   width: 90%;
   margin: 40px auto;
@@ -83,6 +78,13 @@ span {
 
 .compliment-view {
   margin: 40px 0;
+}
+.compliment-view h3 {
+  font-family: Comic Sans MS, sans-serif;
+}
+.compliment-view span {
+  color: #3fcacf;
+  text-decoration: underline;
 }
 
 .compliment-button {

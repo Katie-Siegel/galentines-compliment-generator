@@ -34,7 +34,7 @@ function ideaTwoRandom() {
 
 
 function generatedCompliment() {
-	return `You <span>${adjRandom()} ${nounRandom()}</span> <br>of <span>${ideaOneRandom()}</span> <br>and <span>${ideaTwoRandom()}</span>!`;
+	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> <br>of <span>${ideaOneRandom()}</span> <br>and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
 // Quote about female friendship - need to link to HTML elements
