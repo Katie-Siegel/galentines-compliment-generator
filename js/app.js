@@ -1,4 +1,4 @@
-const message = document.querySelector('.compliment-view');
+const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
 
