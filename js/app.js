@@ -33,7 +33,6 @@ function ideaTwoRandom() {
 };
 
 
-//Need to add span color around randomly generated elements
 function generatedCompliment() {
 	return `You <span>${adjRandom()} ${nounRandom()}</span> <br>of <span>${ideaOneRandom()}</span> <br>and <span>${ideaTwoRandom()}</span>!`;
 }
