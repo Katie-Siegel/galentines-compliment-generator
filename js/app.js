@@ -35,7 +35,9 @@ function ideaTwoRandom() {
 
 
 function generatedCompliment() {
-	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> <br>of <span>${ideaOneRandom()}</span> <br>and <span>${ideaTwoRandom()}</span>!</h3>`;
+	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> <br>
+	of <span>${ideaOneRandom()}</span> <br>
+	and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
 // Quote about female friendship
