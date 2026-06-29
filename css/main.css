@@ -1,170 +1,151 @@
-
 html {
-	font-size: 14px;
-	background-color: #cb81c0;
-	scroll-behavior: smooth; 
-    box-sizing: border-box; 
+  font-size: 14px;
+  background-color: #cb81c0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 @font-face {
-	font-family: 'Vanilla Pancake';
-	src: url(../des/vanilla-pancake.otf);
+  font-family: "Vanilla Pancake";
+  src: url(../des/vanilla-pancake.otf);
 }
-
 body {
-	width: 85%;
-	margin: 40px auto;
-	font-family: 'Vanilla Pancake', 'Snippet', 'Heebo', sans-serif;
-	font-size: 2rem;
-	line-height: 1.7rem;
-	color: #fbc1cd;
-	background-color: #5e4d81;
+  width: 85%;
+  margin: 40px auto;
+  font-family: "Vanilla Pancake", "Snippet", "Heebo", sans-serif;
+  font-size: 2rem;
+  line-height: 1.7rem;
+  color: #fbc1cd;
+  background-color: #5e4d81;
 }
 
 h1 {
-    font-family: 'Vanilla Pancake', cursive;
-    font-size: 5rem;
-	line-height: 5.5rem;
-    color: #3fcacf;
-	margin-bottom: 20px;
+  font-family: "Vanilla Pancake", cursive;
+  font-size: 5rem;
+  line-height: 5.5rem;
+  color: #3fcacf;
+  margin-bottom: 20px;
 }
 
 h2 {
-	font-family: 'Heebo', sans-serif;
-	font-size: 1.3rem;
-	line-height: 1.8rem;
-	color: #9fa4dc;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: #9fa4dc;
 }
 
 h3 {
-	font-family: 'Snippet', sans-serif;
-	font-size: 3rem;
-	line-height: 3.5rem;
-	color: #fbc1cd;
-	margin: 50px 0;
+  font-family: "Snippet", sans-serif;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #fbc1cd;
+  margin: 50px 0;
 }
 
 h4 {
-	font-size: 2.5rem;
-	line-height: 3rem;
-	color: #9fa4dc;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #9fa4dc;
 }
 
 span {
-	color: #3fcacf;
-	text-decoration: underline;
+  color: #3fcacf;
+  text-decoration: underline;
 }
 
 .content-wrapper {
-    width: 90%;
-	margin: 40px auto;
-    text-align: center;
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
-	align-items: center;
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-details {
-	margin: 40px auto;
-	text-align: center;
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
-	align-items: center;
+  margin: 40px auto;
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-text {
-	padding: 1.5rem 0;
+  padding: 1.5rem 0;
 }
 
 .border {
-	border: 2px solid #cb81c0;
-	width: 100%;
+  border: 2px solid #cb81c0;
+  width: 100%;
 }
 
 .compliment-view {
-	margin: 40px 0;
-
+  margin: 40px 0;
 }
 
 .compliment-button {
-	width: 90%;
-	padding: 20px;
-	border: 5px solid #cb81c0;
-	border-radius: 70px;
-	align-items: center;
-
+  width: 90%;
+  padding: 20px;
+  border: 5px solid #cb81c0;
+  border-radius: 70px;
+  align-items: center;
 }
 
 .footer {
-	margin-top: 40px;
-	font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 768px) {
-
+  margin-top: 40px;
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 1200px) {
-	.compliment-button {
-		max-width: 780px;
-	}
-
+  .compliment-button {
+    max-width: 780px;
+  }
 }
-
 @media print {
-	*,
-	*::before,
-	*::after {
-		background: #fff !important;
-		color: #000 !important;
-		box-shadow: none !important;
-		text-shadow: none !important;
-	}
-
-	a,
-	a:visited {
-		text-decoration: underline;
-	}
-
-	a[href]::after {
-		content: ' (' attr(href) ')';
-	}
-
-	abbr[title]::after {
-		content: ' (' attr(title) ')';
-	}
-
-	a[href^='#']::after,
-	a[href^='javascript:']::after {
-		content: '';
-	}
-
-	pre {
-		white-space: pre-wrap !important;
-	}
-
-	pre,
-	blockquote {
-		border: 1px solid #999;
-		page-break-inside: avoid;
-	}
-
-	tr,
-	img {
-		page-break-inside: avoid;
-	}
-
-	p,
-	h2,
-	h3 {
-		orphans: 3;
-		widows: 3;
-	}
-
-	h2,
-	h3 {
-		page-break-after: avoid;
-	}
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
