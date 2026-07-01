@@ -19,15 +19,15 @@ body {
 	font-family: 'Vanilla Pancake', 'Snippet', 'Heebo', sans-serif;
 	font-size: 2rem;
 	line-height: 1.7rem;
-	color: #fbc1cd;
-	background-color: #5e4d81;
+	color: $color-text-light;
+	background-color: $color-bg-dark;
 }
 
 h1 {
     font-family: 'Vanilla Pancake', cursive;
     font-size: 5rem;
 	line-height: 5.5rem;
-    color: #3fcacf;
+    color: $color-accent;
 	margin-bottom: 20px;
 }
 
@@ -35,7 +35,7 @@ h2 {
 	font-family: 'Heebo', sans-serif;
 	font-size: 1.3rem;
 	line-height: 1.8rem;
-	color: #9fa4dc;
+	color: $color-text-medium;
 }
 
 h3 {
