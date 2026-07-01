@@ -42,14 +42,14 @@ h3 {
 	font-family: 'Snippet', sans-serif;
 	font-size: 3rem;
 	line-height: 3.5rem;
-	color: #fbc1cd;
+	color: $color-text-light;
 	margin: 50px 0;
 }
 
 h4 {
 	font-size: 2.5rem;
 	line-height: 3rem;
-	color: #9fa4dc;
+	color: $color-text-medium;
 }
 
 .content-wrapper {
@@ -76,7 +76,7 @@ h4 {
 }
 
 .border {
-	border: 2px solid #cb81c0;
+	border: 2px solid $color-bg-light;
 	width: 100%;
 }
 
@@ -86,7 +86,7 @@ h4 {
         font-family: Comic Sans MS, sans-serif;
     }
     span {
-        color: #3fcacf;
+        color: $color-accent;
         text-decoration: underline;
     }
 
@@ -95,7 +95,7 @@ h4 {
 .compliment-button {
 	width: 90%;
 	padding: 20px;
-	border: 5px solid #cb81c0;
+	border: 5px solid $color-bg-light;
 	border-radius: 70px;
 	align-items: center;
 
@@ -105,7 +105,7 @@ h4 {
     margin: 40px 0;
     font-size: 4rem;
     line-height: 4.5rem;
-    color: #9fa4dc;
+    color: $color-text-medium;
 }
 
 .footer {
@@ -128,8 +128,8 @@ h4 {
 	*,
 	*::before,
 	*::after {
-		background: #fff !important;
-		color: #000 !important;
+		background: $color-white !important;
+		color: $color-black !important;
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
