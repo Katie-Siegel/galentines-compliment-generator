@@ -1,6 +1,6 @@
 html {
   font-size: 14px;
-  background-color: #cb81c0;
+  background-color: #ff336d;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
@@ -16,14 +16,14 @@ body {
   font-size: 2rem;
   line-height: 1.7rem;
   color: #fbc1cd;
-  background-color: #5e4d81;
+  background-color: #4e4187;
 }
 
 h1 {
   font-family: "Vanilla Pancake", cursive;
   font-size: 5rem;
   line-height: 5.5rem;
-  color: #3fcacf;
+  color: #00bfb2;
   margin-bottom: 20px;
 }
 
@@ -72,7 +72,7 @@ h4 {
 }
 
 .border {
-  border: 2px solid #cb81c0;
+  border: 2px solid #ff336d;
   width: 100%;
 }
 
@@ -85,7 +85,7 @@ h4 {
   font-family: Comic Sans MS, sans-serif;
 }
 .compliment-view span {
-  color: #3fcacf;
+  color: #00bfb2;
   text-decoration: underline;
 }
 .compliment-view .compliment-button {
@@ -96,7 +96,7 @@ h4 {
   line-height: 2.15rem;
   margin: 40px auto;
   padding: 10px;
-  border: 5px solid #cb81c0;
+  border: 5px solid #ff336d;
   border-radius: 70px;
   align-items: center;
 }
