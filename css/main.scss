@@ -1,5 +1,5 @@
 //Work in Progress: Galentine's Compliment Generator
-//Work Notes: 1. Update Color Palette 
+//Work Notes: 
 //            2. Update Fonts 
 //            3. Add background color to compliment button
 //            4. Add hover effect to compliment button
@@ -111,7 +111,8 @@ h4 {
 		line-height: 2.15rem;
 		margin: 40px auto;
 		padding: 10px;
-		border: 5px solid $color-bg-light;
+		background-color: $color-bg-light;
+		border: 5px solid $color-accent;
 		border-radius: 70px;
 		align-items: center;
 		@include media-query(desktop-wide) {

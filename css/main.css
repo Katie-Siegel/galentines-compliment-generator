@@ -15,7 +15,7 @@ body {
   font-family: "Vanilla Pancake", "Snippet", "Heebo", sans-serif;
   font-size: 2rem;
   line-height: 1.7rem;
-  color: #8300c0;
+  color: #17e0bc;
   background-color: #0e186f;
 }
 
@@ -31,21 +31,21 @@ h2 {
   font-family: "Heebo", sans-serif;
   font-size: 1.3rem;
   line-height: 1.8rem;
-  color: #0e186f;
+  color: #8300c0;
 }
 
 h3 {
   font-family: "Snippet", sans-serif;
   font-size: 3rem;
   line-height: 3.5rem;
-  color: #8300c0;
+  color: #17e0bc;
   margin: 50px 0;
 }
 
 h4 {
   font-size: 2.5rem;
   line-height: 3rem;
-  color: #0e186f;
+  color: #8300c0;
 }
 
 .content-wrapper {
@@ -91,12 +91,13 @@ h4 {
 .compliment-view .compliment-button {
   width: 90%;
   font-family: Vanilla Pancake, cursive;
-  color: #0e186f;
+  color: #8300c0;
   font-size: 2rem;
   line-height: 2.15rem;
   margin: 40px auto;
   padding: 10px;
-  border: 5px solid #17e0bc;
+  background-color: #17e0bc;
+  border: 5px solid #fe00ac;
   border-radius: 70px;
   align-items: center;
 }
@@ -109,7 +110,7 @@ h4 {
   margin: 40px 0;
   font-size: 4rem;
   line-height: 4.5rem;
-  color: #0e186f;
+  color: #8300c0;
 }
 
 .footer {
