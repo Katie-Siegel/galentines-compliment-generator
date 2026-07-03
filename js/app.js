@@ -1,9 +1,20 @@
+//Work in Progress: Galentine's Compliment Generator
+//Work Notes: 1. Add Request for Friend's Name
+//            2. Update Response to Include Friend's Name
+//            3. Add options to:
+// 					- adjRandom()
+// 					- nounRandom()
+//                  - ideaOneRandom()
+//				    - ideaTwoRandom()
+//            4. Add options to quoteRandom()
+//            5. Reformat options in quoteRandom() to include quotes
+//            6. Add random picture generator for "Friendship Carousel"
+//			  7. Add Picture Dontation Function for "Friendship Carousel"
+// 			  8. Reformat JavavScript to React.js
+
 const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
-
-
-// Getting Friend's Name from the User
 
 // Compliment Generator Formula
 function adjRandom() {
@@ -33,15 +44,13 @@ function ideaTwoRandom() {
 	return ideaTwo[Math.floor(Math.random() * ideaTwo.length)];
 };
 
-
 function generatedCompliment() {
 	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> <br>
 	of <span>${ideaOneRandom()}</span> <br>
 	and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
-// Quote about female friendship
-
+// Quote Generator Formula
 function quoteRandom() {
 	const quote = ["you are the best of us", "hope you have a great day", "princesses are all born girls"];
 	return quote[Math.floor(Math.random() * quote.length)]
@@ -54,7 +63,6 @@ function updateQuote() {
 
 
 // Compliment Button Function
-
 compButton.addEventListener('click', function () {
 	const compliment = message.innerText;
 	if (compliment === "") {
@@ -68,9 +76,6 @@ compButton.addEventListener('click', function () {
 	updateQuote();
 
 });
-
-// Add Picture Dontation Function for "Friendship Carousel"
-
 
 // Updates Copyright Footer
 const year = document.querySelector(
