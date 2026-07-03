@@ -76,6 +76,11 @@ h4 {
   width: 100%;
 }
 
+.compliment-view img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 .compliment-view h3 {
   font-family: Comic Sans MS, sans-serif;
 }
@@ -83,21 +88,19 @@ h4 {
   color: #3fcacf;
   text-decoration: underline;
 }
-
-.compliment-button {
+.compliment-view .compliment-button {
   width: 90%;
-  padding: 20px;
+  padding: 0;
   border: 5px solid #cb81c0;
   border-radius: 70px;
   align-items: center;
 }
 @media screen and (min-width: 1050px) {
-  .compliment-button {
+  .compliment-view .compliment-button {
     max-width: 780px;
   }
 }
-
-.quote {
+.compliment-view .quote {
   margin: 40px 0;
   font-size: 4rem;
   line-height: 4.5rem;
