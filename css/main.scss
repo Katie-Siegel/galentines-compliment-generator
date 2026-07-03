@@ -99,6 +99,10 @@ h4 {
 	border: 5px solid $color-bg-light;
 	border-radius: 70px;
 	align-items: center;
+	@include media-query(desktop-wide) {
+		max-width: 780px;
+	}
+	
 
 }
 
@@ -112,17 +116,6 @@ h4 {
 .footer {
 	margin-top: 40px;
 	font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 1200px) {
-	.compliment-button {
-		max-width: 780px;
-	}
-
 }
 
 @media print {
