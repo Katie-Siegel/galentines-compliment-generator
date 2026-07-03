@@ -1,7 +1,7 @@
 //Work in Progress: Galentine's Compliment Generator
 //Work Notes: 
 //            2. Update Fonts 
-//            3. Add background color to compliment button
+//           
 //            4. Add hover effect to compliment button
 //            5. Add Tablet Media Query
 //			  6. Add Desktop Media Query
@@ -118,6 +118,11 @@ h4 {
 		@include media-query(desktop-wide) {
 			max-width: 780px;
 		}	
+		&:hover {
+			background-color: $color-bg-dark;
+			color: $color-text-light;
+			border: 5px solid $color-accent;
+		}
 	}
 	.quote {
 		margin: 40px 0;
