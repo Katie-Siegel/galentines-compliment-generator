@@ -109,6 +109,9 @@ h4 {
 		width: 90%;
 		margin: 0 auto;
 		text-align: center;
+		// @include media-query(tablet) {
+		// 	w;
+		// }
 	}
 	.compliment-button {
 		width: 90%;

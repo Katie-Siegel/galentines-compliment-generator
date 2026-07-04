@@ -45,8 +45,7 @@ function ideaTwoRandom() {
 };
 
 function generatedCompliment() {
-	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> <br>
-	of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
+	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
 // Quote Generator Formula
