@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Sweety Bakery", "Heebo", sans-serif;
+  font-family: "Snippet", sans-serif;
   font-size: 1.3rem;
   line-height: 1.8rem;
   color: #8300c0;
@@ -83,7 +83,7 @@ h4 {
   margin: 0 auto;
 }
 .compliment-view h3 {
-  font-family: Comic Sans MS, sans-serif;
+  font-family: "Snippet", cursive;
 }
 .compliment-view span {
   color: #fe00ac;
@@ -91,7 +91,7 @@ h4 {
 }
 .compliment-view .compliment-button {
   width: 90%;
-  font-family: Vanilla Pancake, cursive;
+  font-family: "Sweety Bakery", cursive;
   color: #8300c0;
   font-size: 2rem;
   line-height: 2.15rem;
