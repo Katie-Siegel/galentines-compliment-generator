@@ -21,8 +21,8 @@ body {
 
 h1 {
   font-family: "Sweety Bakery", cursive;
-  font-size: 5rem;
-  line-height: 5.5rem;
+  font-size: 4.5rem;
+  line-height: 5rem;
   color: #fe00ac;
   margin-bottom: 20px;
 }
@@ -51,7 +51,7 @@ h4 {
 
 .content-wrapper {
   width: 90%;
-  margin: 40px auto;
+  margin: 20px auto;
   text-align: center;
   display: flex;
   flex-flow: wrap;
