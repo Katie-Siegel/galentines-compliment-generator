@@ -11,7 +11,7 @@ html {
 }
 body {
   width: 85%;
-  margin: 40px auto;
+  margin: 20px auto;
   font-family: "Sweety Bakery", "Snippet", "Heebo", sans-serif;
   font-size: 2rem;
   line-height: 1.7rem;
@@ -24,7 +24,7 @@ h1 {
   font-size: 4.5rem;
   line-height: 5rem;
   color: #fe00ac;
-  margin-bottom: 20px;
+  margin: 0;
   text-align: center;
 }
 
