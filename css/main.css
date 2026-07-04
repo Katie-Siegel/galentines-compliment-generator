@@ -81,14 +81,22 @@ h4 {
 .compliment-view img {
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .compliment-view h3 {
   font-family: "Snippet", cursive;
+  font-size: 1.9rem;
+  line-height: 2rem;
+  margin: 30px 0;
 }
 .compliment-view span {
   color: #fe00ac;
   text-decoration: underline;
+}
+.compliment-view .compliment {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 .compliment-view .compliment-button {
   width: 90%;
