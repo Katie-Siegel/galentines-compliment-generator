@@ -87,6 +87,31 @@ h4 {
 	width: 100%;
 }
 
+.name-request {
+	.submit-button {
+		width: 90%;
+		font-family: 'Sweety Bakery', cursive;
+		color: $color-text-medium;
+		font-size: 2rem;
+		line-height: 2.15rem;
+		margin: 40px auto;
+		padding: 10px;
+		background-color: $color-bg-light;
+		border: 5px solid $color-accent;
+		border-radius: 70px;
+		align-items: center;
+		@include media-query(desktop-wide) {
+			max-width: 780px;
+		}	
+		&:hover {
+			background-color: $color-bg-dark;
+			color: $color-text-light;
+			border: 5px solid $color-accent;
+		}
+	}
+
+}
+
 .compliment-view {
 	img {
 		width: 100%;

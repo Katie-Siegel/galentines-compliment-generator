@@ -78,6 +78,30 @@ h4 {
   width: 100%;
 }
 
+.name-request .submit-button {
+  width: 90%;
+  font-family: "Sweety Bakery", cursive;
+  color: #8300c0;
+  font-size: 2rem;
+  line-height: 2.15rem;
+  margin: 40px auto;
+  padding: 10px;
+  background-color: #17e0bc;
+  border: 5px solid #fe00ac;
+  border-radius: 70px;
+  align-items: center;
+}
+@media screen and (min-width: 1050px) {
+  .name-request .submit-button {
+    max-width: 780px;
+  }
+}
+.name-request .submit-button:hover {
+  background-color: #0e186f;
+  color: #17e0bc;
+  border: 5px solid #fe00ac;
+}
+
 .compliment-view img {
   width: 100%;
   height: auto;
