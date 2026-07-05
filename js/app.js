@@ -7,7 +7,6 @@
 //                  - ideaOneRandom()
 //				    - ideaTwoRandom()
 //            4. Add options to quoteRandom()
-//            5. Reformat options in quoteRandom() to include quotes
 //            6. Add random picture generator for "Friendship Carousel"
 //			  7. Add Picture Dontation Function for "Friendship Carousel"
 // 			  8. Reformat JavavScript to React.js
