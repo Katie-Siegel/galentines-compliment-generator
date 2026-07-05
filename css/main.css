@@ -78,13 +78,26 @@ h4 {
   width: 100%;
 }
 
+.name-request input {
+  width: 90%;
+  font-family: "Snippet", cursive;
+  color: #8300c0;
+  font-size: 1.5rem;
+  line-height: 2.15rem;
+  margin: 20px auto;
+  padding: 10px 10px;
+  background-color: #17e0bc;
+  border: 5px solid #fe00ac;
+  border-radius: 70px;
+  text-align: center;
+}
 .name-request .submit-button {
   width: 90%;
-  font-family: "Sweety Bakery", cursive;
+  font-family: "Snippet", cursive;
   color: #8300c0;
   font-size: 2rem;
   line-height: 2.15rem;
-  margin: 40px auto;
+  margin: 20px auto;
   padding: 10px;
   background-color: #17e0bc;
   border: 5px solid #fe00ac;
