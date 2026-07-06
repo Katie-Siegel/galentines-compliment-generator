@@ -78,41 +78,43 @@ h4 {
   width: 100%;
 }
 
-.name-request input {
-  width: 90%;
+.name-request .name-form {
+  width: 100%;
+  margin: 0 auto;
+}
+.name-request .name-form input {
   font-family: "Snippet", cursive;
   color: #8300c0;
   font-size: 1.25rem;
   margin: 20px auto;
-  padding: 10px;
+  padding: 10px 60px;
   background-color: #17e0bc;
   border: 5px solid #fe00ac;
   border-radius: 70px;
   text-align: center;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .name-request input {
+  .name-request .name-form input {
     width: 45%;
   }
 }
-.name-request .submit-button {
-  width: 90%;
+.name-request .name-form .submit-button {
   font-family: "Snippet", cursive;
   color: #8300c0;
   font-size: 1.25rem;
   margin: 20px auto;
-  padding: 10px;
+  padding: 10px 85px;
   background-color: #17e0bc;
   border: 5px solid #fe00ac;
   border-radius: 70px;
   align-items: center;
 }
 @media screen and (min-width: 1025px) {
-  .name-request .submit-button {
+  .name-request .name-form .submit-button {
     max-width: 780px;
   }
 }
-.name-request .submit-button:hover {
+.name-request .name-form .submit-button:hover {
   background-color: #0e186f;
   color: #17e0bc;
   border: 5px solid #fe00ac;
