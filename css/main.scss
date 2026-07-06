@@ -1,5 +1,6 @@
 //Work in Progress: Galentine's Compliment Generator
 //Work Notes: NA
+//			1. Fix input box and submit button in latop and desktop view.
 
 
 @import 'variables';
@@ -88,34 +89,38 @@ h4 {
 }
 
 .name-request {
-	.name-form {
-		width: 100%;
-		margin: 0 auto;
 		input {
+			width: 90%;
 			font-family: 'Snippet', cursive;
 			color: $color-text-medium;
 			font-size: 1.25rem;
 			margin: 20px auto;
-			padding: 10px 60px;
+			padding: 10px;
 			background-color: $color-bg-light;
 			border: 5px solid $color-accent;
 			border-radius: 70px;
 			text-align: center;
 			@include media-query(tablet) {
-			width: 45%
+				font-size: 2rem;
+				line-height: 2.15rem;
 			}
 		}
 		.submit-button {
+			width: 90%;
 			font-family: 'Snippet', cursive;
 			color: $color-text-medium;
 			font-size: 1.25rem;
 			margin: 20px auto;
-			padding: 10px 85px;
+			padding: 10px;
 			background-color: $color-bg-light;
 			border: 5px solid $color-accent;
 			border-radius: 70px;
 			align-items: center;
-			@include media-query(lap-top) {
+			@include media-query(tablet) {
+				font-size: 2rem;
+				line-height: 2.15rem;
+			}
+			@include media-query(laptop) {
 				max-width: 780px;
 			}	
 			&:hover {
@@ -124,7 +129,6 @@ h4 {
 			border: 5px solid $color-accent;
 			}
 		}
-	}
 }
 
 .compliment-view {

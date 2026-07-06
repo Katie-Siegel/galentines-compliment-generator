@@ -78,43 +78,48 @@ h4 {
   width: 100%;
 }
 
-.name-request .name-form {
-  width: 100%;
-  margin: 0 auto;
-}
-.name-request .name-form input {
+.name-request input {
+  width: 90%;
   font-family: "Snippet", cursive;
   color: #8300c0;
   font-size: 1.25rem;
   margin: 20px auto;
-  padding: 10px 60px;
+  padding: 10px;
   background-color: #17e0bc;
   border: 5px solid #fe00ac;
   border-radius: 70px;
   text-align: center;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .name-request .name-form input {
-    width: 45%;
+  .name-request input {
+    font-size: 2rem;
+    line-height: 2.15rem;
   }
 }
-.name-request .name-form .submit-button {
+.name-request .submit-button {
+  width: 90%;
   font-family: "Snippet", cursive;
   color: #8300c0;
   font-size: 1.25rem;
   margin: 20px auto;
-  padding: 10px 85px;
+  padding: 10px;
   background-color: #17e0bc;
   border: 5px solid #fe00ac;
   border-radius: 70px;
   align-items: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .name-request .submit-button {
+    font-size: 2rem;
+    line-height: 2.15rem;
+  }
+}
 @media screen and (min-width: 1025px) {
-  .name-request .name-form .submit-button {
+  .name-request .submit-button {
     max-width: 780px;
   }
 }
-.name-request .name-form .submit-button:hover {
+.name-request .submit-button:hover {
   background-color: #0e186f;
   color: #17e0bc;
   border: 5px solid #fe00ac;

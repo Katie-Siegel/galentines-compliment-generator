@@ -4,7 +4,7 @@
     @media screen and (min-width: 1680px) {
        @content; 
       }
-  } @else if $size == lap-top {
+  } @else if $size == laptop {
     @media screen and (min-width: 1025px) {
        @content; 
       }
