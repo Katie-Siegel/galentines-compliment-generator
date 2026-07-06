@@ -99,6 +99,9 @@ h4 {
 			border: 5px solid $color-accent;
 			border-radius: 70px;
 			text-align: center;
+			@include media-query(tablet) {
+			width: 45%
+			}
 		}
 		.submit-button {
 			width: 90%;
@@ -111,7 +114,7 @@ h4 {
 			border: 5px solid $color-accent;
 			border-radius: 70px;
 			align-items: center;
-			@include media-query(desktop-wide) {
+			@include media-query(lap-top) {
 				max-width: 780px;
 			}	
 			&:hover {
@@ -156,7 +159,7 @@ h4 {
 		border: 5px solid $color-accent;
 		border-radius: 70px;
 		align-items: center;
-		@include media-query(desktop-wide) {
+		@include media-query(desktop) {
 			max-width: 780px;
 		}	
 		&:hover {

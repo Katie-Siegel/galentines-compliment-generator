@@ -90,6 +90,11 @@ h4 {
   border-radius: 70px;
   text-align: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .name-request input {
+    width: 45%;
+  }
+}
 .name-request .submit-button {
   width: 90%;
   font-family: "Snippet", cursive;
@@ -102,7 +107,7 @@ h4 {
   border-radius: 70px;
   align-items: center;
 }
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1025px) {
   .name-request .submit-button {
     max-width: 780px;
   }
@@ -146,7 +151,7 @@ h4 {
   border-radius: 70px;
   align-items: center;
 }
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1680px) {
   .compliment-view .compliment-button {
     max-width: 780px;
   }
