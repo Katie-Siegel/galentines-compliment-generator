@@ -89,6 +89,9 @@ h4 {
 }
 
 .name-request {
+		h3 {
+			width: 90%;
+		}
 		input {
 			width: 90%;
 			font-family: 'Snippet', cursive;
@@ -103,6 +106,12 @@ h4 {
 			@include media-query(tablet) {
 				font-size: 2rem;
 				line-height: 2.15rem;
+			}
+			@include media-query(laptop) {
+				// max-width: 780px;
+				width: 100%;
+				flex-flow: row wrap;
+				display: flex;
 			}
 		}
 		.submit-button {
@@ -121,14 +130,23 @@ h4 {
 				line-height: 2.15rem;
 			}
 			@include media-query(laptop) {
-				max-width: 780px;
+				// max-width: 780px;
+				width: 100%;
+				flex-flow: row wrap;
+				display: flex;
 			}	
 			&:hover {
 			background-color: $color-bg-dark;
 			color: $color-text-light;
 			border: 5px solid $color-accent;
 			}
-		}
+				}
+		@include media-query(laptop) {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			align-items: center;
+		}	
 }
 
 .compliment-view {
