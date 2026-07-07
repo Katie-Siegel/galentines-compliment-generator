@@ -93,7 +93,7 @@ h4 {
 			width: 90%;
 		}
 		input {
-			width: 90%;
+			width: 50vw;
 			font-family: 'Snippet', cursive;
 			color: $color-text-medium;
 			font-size: 1.25rem;
@@ -109,13 +109,13 @@ h4 {
 			}
 			@include media-query(laptop) {
 				// max-width: 780px;
-				width: 100%;
-				flex-flow: row wrap;
-				display: flex;
+				// width: 100%;
+				// flex-flow: row wrap;
+				// display: flex;
 			}
 		}
 		.submit-button {
-			width: 90%;
+			width: 50vw;
 			font-family: 'Snippet', cursive;
 			color: $color-text-medium;
 			font-size: 1.25rem;
@@ -131,9 +131,9 @@ h4 {
 			}
 			@include media-query(laptop) {
 				// max-width: 780px;
-				width: 100%;
-				flex-flow: row wrap;
-				display: flex;
+				// width: 100%;
+				// flex-flow: row wrap;
+				// display: flex;
 			}	
 			&:hover {
 			background-color: $color-bg-dark;

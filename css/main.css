@@ -82,7 +82,7 @@ h4 {
   width: 90%;
 }
 .name-request input {
-  width: 90%;
+  width: 50vw;
   font-family: "Snippet", cursive;
   color: #8300c0;
   font-size: 1.25rem;
@@ -99,15 +99,8 @@ h4 {
     line-height: 2.15rem;
   }
 }
-@media screen and (min-width: 1025px) {
-  .name-request input {
-    width: 100%;
-    flex-flow: row wrap;
-    display: flex;
-  }
-}
 .name-request .submit-button {
-  width: 90%;
+  width: 50vw;
   font-family: "Snippet", cursive;
   color: #8300c0;
   font-size: 1.25rem;
@@ -122,13 +115,6 @@ h4 {
   .name-request .submit-button {
     font-size: 2rem;
     line-height: 2.15rem;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .name-request .submit-button {
-    width: 100%;
-    flex-flow: row wrap;
-    display: flex;
   }
 }
 .name-request .submit-button:hover {
