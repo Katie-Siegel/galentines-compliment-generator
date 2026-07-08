@@ -83,8 +83,6 @@ h4 {
 }
 .name-request input {
   width: 50vw;
-  font-family: "Snippet", cursive;
-  color: #8300c0;
   font-size: 1.25rem;
   margin: 20px auto;
   padding: 10px;
@@ -92,6 +90,14 @@ h4 {
   border: 5px solid #fe00ac;
   border-radius: 70px;
   text-align: center;
+}
+.name-request input::-moz-placeholder {
+  color: #8300c0;
+  font-family: "Snippet", cursive;
+}
+.name-request input::placeholder {
+  color: #8300c0;
+  font-family: "Snippet", cursive;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .name-request input {
