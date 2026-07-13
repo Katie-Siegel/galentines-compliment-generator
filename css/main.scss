@@ -41,8 +41,8 @@ h1 {
 
 h2 {
 	font-family: 'Snippet', sans-serif;
-	font-size: 1.3rem;
-	line-height: 2.8rem;
+	font-size: 1.5rem;
+	line-height: 1.7rem;
 	color: $color-text-medium;
 }
 
@@ -87,6 +87,14 @@ h4 {
 .border {
 	border: 2px solid $color-bg-light;
 	width: 100%;
+}
+
+.intro {
+	margin: 20px auto;
+	text-align: center;
+	@include media-query(desktop) {
+		display: block;
+	}
 }
 
 .name-request {
