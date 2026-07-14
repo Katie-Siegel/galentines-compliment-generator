@@ -11,9 +11,23 @@
 //			  7. Add Picture Dontation Function for "Friendship Carousel"
 // 			  8. Reformat JavavScript to React.js
 
+
+const nameInput = document.getElementById('name');
+const nameButton = document.getElementsByClassName('submit-button')[0];
+const nameMessage = document.querySelector('.name-message');
 const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
+
+// Name Button Function
+nameButton.addEventListener('click', function (e) {
+	e.preventDefault();
+	const friendName = nameInput.value;
+	if (friendName) {
+		nameMessage.innerText = `${friendName} sounds amazing! Let's get a compliment for them!`;
+	};
+	return friendName;
+});
 
 // Compliment Generator Formula
 function adjRandom() {
@@ -44,7 +58,8 @@ function ideaTwoRandom() {
 };
 
 function generatedCompliment() {
-	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
+	const friendName = nameInput.value;
+	return `<h3>Hey ${friendName}! You are a <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
 // Quote Generator Formula
@@ -63,7 +78,6 @@ function updateQuote() {
 	const quote = quoteMessage.innerText; 
 	quoteMessage.innerText = quoteRandom("h3");
 }
-
 
 // Compliment Button Function
 compButton.addEventListener('click', function () {
