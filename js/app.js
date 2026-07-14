@@ -25,7 +25,8 @@ nameButton.addEventListener('click', function (e) {
 	const friendName = nameInput.value;
 	if (friendName) {
 		nameMessage.innerText = `${friendName} sounds amazing! Let's get a compliment for them!`;
-	}
+	};
+	return friendName;
 });
 
 // Compliment Button Function
@@ -75,7 +76,8 @@ function ideaTwoRandom() {
 };
 
 function generatedCompliment() {
-	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
+	const friendName = nameInput.value;
+	return `<h3>Hey ${friendName}! You <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
 // Quote Generator Formula
