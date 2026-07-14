@@ -11,6 +11,10 @@
 //			  7. Add Picture Dontation Function for "Friendship Carousel"
 // 			  8. Reformat JavavScript to React.js
 
+
+const nameInput = document.getElementById('name');
+const nameButton = document.getElementByClassName('submit-button');
+const nameMessage = document.querySelector('.name-message');
 const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
