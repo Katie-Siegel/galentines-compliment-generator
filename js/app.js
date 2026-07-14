@@ -29,24 +29,6 @@ nameButton.addEventListener('click', function (e) {
 	return friendName;
 });
 
-// Compliment Button Function
-compButton.addEventListener('click', function () {
-	const compliment = message.innerText;
-	if (compliment === "") {
-		message.innerHTML = generatedCompliment();
-		compButton.innerText = "Compliment Again!"
-	} else {
-		let newCompliment = document.createElement("h3");
-		newCompliment.innerHTML = generatedCompliment();
-		message.append(newCompliment);
-	};
-	updateQuote();
-
-});
-
-
-
-
 // Compliment Generator Formula
 function adjRandom() {
 	const adj = ["smart", "hilarious", "wise", "peculiar", 'loyal', 'quaint', 'chipper', 'fanciful', 'jubilant', 'zany', 'periwinkle', 'sprightly', 'snug', 'dappled', 'topsy-turvy',
@@ -77,7 +59,7 @@ function ideaTwoRandom() {
 
 function generatedCompliment() {
 	const friendName = nameInput.value;
-	return `<h3>Hey ${friendName}! You <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
+	return `<h3>Hey ${friendName}! You are a <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
 // Quote Generator Formula
@@ -96,7 +78,6 @@ function updateQuote() {
 	const quote = quoteMessage.innerText; 
 	quoteMessage.innerText = quoteRandom("h3");
 }
-
 
 // Compliment Button Function
 compButton.addEventListener('click', function () {
