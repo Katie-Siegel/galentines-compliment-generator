@@ -20,10 +20,11 @@ const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
 
 // Name Button Function
-nameButton.addEventListener('click', function () {
+nameButton.addEventListener('click', function (e) {
+	e.preventDefault();
 	const friendName = nameInput.value;
 	if (friendName) {
-		nameMessage.innerText = `Hello, ${friendName}!`;
+		nameMessage.innerText = `${friendName} sounds amazing! Let's get a compliment for them!`;
 	}
 });
 
