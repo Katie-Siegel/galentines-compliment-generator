@@ -1,6 +1,5 @@
 //Work in Progress: Galentine's Compliment Generator
-//Work Notes: 1. Add Request for Friend's Name
-//            2. Update Response to Include Friend's Name
+//Work Notes: 
 //            3. Add options to:
 // 					- adjRandom()
 // 					- nounRandom()
