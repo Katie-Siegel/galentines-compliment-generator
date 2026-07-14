@@ -11,9 +11,23 @@
 //			  7. Add Picture Dontation Function for "Friendship Carousel"
 // 			  8. Reformat JavavScript to React.js
 
+
+const nameInput = document.getElementById('name');
+const nameButton = document.getElementsByClassName('submit-button')[0];
+const nameMessage = document.querySelector('.name-message');
 const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
+
+// Name Button Function
+nameButton.addEventListener('click', function (e) {
+	e.preventDefault();
+	const friendName = nameInput.value;
+	if (friendName) {
+		nameMessage.innerText = `${friendName} sounds amazing! Let's get a compliment for them!`;
+	};
+	return friendName;
+});
 
 // Compliment Generator Formula
 function adjRandom() {
@@ -44,7 +58,8 @@ function ideaTwoRandom() {
 };
 
 function generatedCompliment() {
-	return `<h3>You <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
+	const friendName = nameInput.value;
+	return `<h3>Hey ${friendName}! You are a <span>${adjRandom()} ${nounRandom()}</span> of <span>${ideaOneRandom()}</span> and <span>${ideaTwoRandom()}</span>!</h3>`;
 }
 
 // Quote Generator Formula
@@ -53,7 +68,8 @@ function quoteRandom() {
 		'“Friendship is the golden thread that ties the heart of all the world.”', '“A friend is someone who knows all about you and still loves you.”', '“Good friends are like stars. You don’t always see them, but you know they’re always there.”',
 		'“Friendship is born at that moment when one person says to another, ‘What! You too? I thought I was the only one.’”', '“A friend is one of the nicest things you can have, and one of the best things you can be.”',
 		'“Friendship is the only cement that will ever hold the world together.”', '“A real friend is one who walks in when the rest of the world walks out.”', '“A true friend is like a star; you don’t always see them, but you know they’re always there.”',
-		'“Boundaries are our shields; let’s respect and honor them.”'
+		'“Boundaries are our shields; let’s respect and honor them.”', '"A loyal friend laughs at your jokes when they\'re not so good, and sympathizes with your problems when they\'re not so bad." – Arnold H. Glasgow',
+		'"I don’t know what I would have done so many times in my life if I hadn’t had my girlfriends." – Reese Witherspoon', 
 	];
 	return quote[Math.floor(Math.random() * quote.length)]
 }
@@ -62,7 +78,6 @@ function updateQuote() {
 	const quote = quoteMessage.innerText; 
 	quoteMessage.innerText = quoteRandom("h3");
 }
-
 
 // Compliment Button Function
 compButton.addEventListener('click', function () {

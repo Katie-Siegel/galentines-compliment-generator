@@ -24,14 +24,14 @@ h1 {
   font-size: 4.5rem;
   line-height: 5rem;
   color: #fe00ac;
-  margin: 0;
+  margin: 10px 0;
   text-align: center;
 }
 
 h2 {
   font-family: "Snippet", sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.8rem;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
   color: #8300c0;
 }
 
@@ -78,10 +78,21 @@ h4 {
   width: 100%;
 }
 
-.name-request input {
+.intro {
+  margin: 20px auto;
+  text-align: center;
+}
+@media screen and (min-width: 1680px) {
+  .intro {
+    display: block;
+  }
+}
+
+.name-request h3 {
   width: 90%;
-  font-family: "Snippet", cursive;
-  color: #8300c0;
+}
+.name-request input {
+  width: 50vw;
   font-size: 1.25rem;
   margin: 20px auto;
   padding: 10px;
@@ -90,6 +101,14 @@ h4 {
   border-radius: 70px;
   text-align: center;
 }
+.name-request input::-moz-placeholder {
+  color: #8300c0;
+  font-family: "Snippet", cursive;
+}
+.name-request input::placeholder {
+  color: #8300c0;
+  font-family: "Snippet", cursive;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .name-request input {
     font-size: 2rem;
@@ -97,7 +116,7 @@ h4 {
   }
 }
 .name-request .submit-button {
-  width: 90%;
+  width: 50vw;
   font-family: "Snippet", cursive;
   color: #8300c0;
   font-size: 1.25rem;
@@ -114,15 +133,18 @@ h4 {
     line-height: 2.15rem;
   }
 }
-@media screen and (min-width: 1025px) {
-  .name-request .submit-button {
-    max-width: 780px;
-  }
-}
 .name-request .submit-button:hover {
   background-color: #0e186f;
   color: #17e0bc;
   border: 5px solid #fe00ac;
+}
+@media screen and (min-width: 1025px) {
+  .name-request {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .compliment-view img {

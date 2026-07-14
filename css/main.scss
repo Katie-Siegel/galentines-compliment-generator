@@ -1,6 +1,5 @@
 //Work in Progress: Galentine's Compliment Generator
 //Work Notes: NA
-//			1. Fix input box and submit button in latop and desktop view.
 
 
 @import 'variables';
@@ -34,14 +33,14 @@ h1 {
     font-size: 4.5rem;
 	line-height: 5rem;
     color: $color-accent;
-	margin: 0;
+	margin: 10px 0;
 	text-align: center;
 }
 
 h2 {
 	font-family: 'Snippet', sans-serif;
-	font-size: 1.3rem;
-	line-height: 1.8rem;
+	font-size: 1.5rem;
+	line-height: 1.7rem;
 	color: $color-text-medium;
 }
 
@@ -88,11 +87,20 @@ h4 {
 	width: 100%;
 }
 
+.intro {
+	margin: 20px auto;
+	text-align: center;
+	@include media-query(desktop) {
+		display: block;
+	}
+}
+
 .name-request {
-		input {
+		h3 {
 			width: 90%;
-			font-family: 'Snippet', cursive;
-			color: $color-text-medium;
+		}
+		input {
+			width: 50vw;
 			font-size: 1.25rem;
 			margin: 20px auto;
 			padding: 10px;
@@ -100,13 +108,23 @@ h4 {
 			border: 5px solid $color-accent;
 			border-radius: 70px;
 			text-align: center;
+			&::placeholder {
+				color: $color-text-medium;
+				font-family: 'Snippet', cursive;
+			}
 			@include media-query(tablet) {
 				font-size: 2rem;
 				line-height: 2.15rem;
 			}
+			@include media-query(laptop) {
+				// max-width: 780px;
+				// width: 100%;
+				// flex-flow: row wrap;
+				// display: flex;
+			}
 		}
 		.submit-button {
-			width: 90%;
+			width: 50vw;
 			font-family: 'Snippet', cursive;
 			color: $color-text-medium;
 			font-size: 1.25rem;
@@ -121,14 +139,23 @@ h4 {
 				line-height: 2.15rem;
 			}
 			@include media-query(laptop) {
-				max-width: 780px;
+				// max-width: 780px;
+				// width: 100%;
+				// flex-flow: row wrap;
+				// display: flex;
 			}	
 			&:hover {
 			background-color: $color-bg-dark;
 			color: $color-text-light;
 			border: 5px solid $color-accent;
 			}
-		}
+				}
+		@include media-query(laptop) {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			align-items: center;
+		}	
 }
 
 .compliment-view {
