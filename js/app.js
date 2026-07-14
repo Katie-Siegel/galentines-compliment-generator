@@ -13,11 +13,37 @@
 
 
 const nameInput = document.getElementById('name');
-const nameButton = document.getElementByClassName('submit-button');
+const nameButton = document.getElementsByClassName('submit-button')[0];
 const nameMessage = document.querySelector('.name-message');
 const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
+
+// Name Button Function
+nameButton.addEventListener('click', function () {
+	const friendName = nameInput.value;
+	if (friendName) {
+		nameMessage.innerText = `Hello, ${friendName}!`;
+	}
+});
+
+// Compliment Button Function
+compButton.addEventListener('click', function () {
+	const compliment = message.innerText;
+	if (compliment === "") {
+		message.innerHTML = generatedCompliment();
+		compButton.innerText = "Compliment Again!"
+	} else {
+		let newCompliment = document.createElement("h3");
+		newCompliment.innerHTML = generatedCompliment();
+		message.append(newCompliment);
+	};
+	updateQuote();
+
+});
+
+
+
 
 // Compliment Generator Formula
 function adjRandom() {
