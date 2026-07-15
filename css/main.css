@@ -138,6 +138,12 @@ h4 {
   color: #17e0bc;
   border: 5px solid #fe00ac;
 }
+.name-request .name-message {
+  width: 90%;
+  margin: 30px auto;
+  color: #8300c0;
+  font-size: 4rem;
+}
 @media screen and (min-width: 1025px) {
   .name-request {
     display: flex;

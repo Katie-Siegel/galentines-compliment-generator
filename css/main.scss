@@ -150,6 +150,12 @@ h4 {
 			border: 5px solid $color-accent;
 			}
 				}
+		.name-message {
+			width: 90%;
+			margin: 30px auto;
+			color: $color-text-medium;
+			font-size: 4rem;
+		}
 		@include media-query(laptop) {
 			display: flex;
 			flex-flow: row wrap;
