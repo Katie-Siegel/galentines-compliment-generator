@@ -154,7 +154,8 @@ h4 {
 			width: 90%;
 			margin: 30px auto;
 			color: $color-text-medium;
-			font-size: 4rem;
+			font-size: 3rem;
+			line-height: 3.5rem;
 		}
 		@include media-query(laptop) {
 			display: flex;
