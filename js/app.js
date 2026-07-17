@@ -85,13 +85,22 @@ const images = [
 		alt: "Two young girls sharing secrets",
 		src: "img/girls-whispering.jpg"
 	},
+	{
+		alt: "Two young girls hugging",
+		src: "img/girls-hugging.jpg"
+	},
+	{
+		alt: "Two young girls laughing",
+		src: "img/girls-laughing.jpg"
+	}
 ];
 
 //Random Image Generator Function
 function randomImage() {
 	const imageIndex= images[Math.floor(Math.random() * images.length)];
-	randomImage.src = image.src;
+	randomImage.src = imageIndex.src;
 	randomImage.alt = image.alt;
+	return randomImage;
 }
 
 // Compliment Button Function
