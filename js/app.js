@@ -1,14 +1,16 @@
 //Work in Progress: Galentine's Compliment Generator
-//Work Notes: 
+//Work Notes:
 //            3. Add options to:
 // 					- adjRandom()
 // 					- nounRandom()
 //                  - ideaOneRandom()
 //				    - ideaTwoRandom()
 //            4. Add options to quoteRandom()
-//            6. Add random picture generator for "Friendship Carousel"
+//            6. Add images to randomImage() array
 //			  7. Add Picture Dontation Function for "Friendship Carousel"
 // 			  8. Reformat JavavScript to React.js
+//			  9. Correct a/an in generatedCompliment() function
+//            10. Add "Share Your Compliment" Function
 
 
 const nameInput = document.getElementById('name');
