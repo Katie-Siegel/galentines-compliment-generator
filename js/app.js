@@ -93,6 +93,17 @@ compButton.addEventListener('click', function () {
 
 });
 
+//Random Image Generator Function
+function randomImage() {
+	const images = [
+		{
+			alt: "Two young girls sharing secrets",
+			src: "img/girls-whispering.jpg"
+		},
+	]
+}
+
+
 // Updates Copyright Footer
 const year = document.querySelector(
 	'#current-year'
