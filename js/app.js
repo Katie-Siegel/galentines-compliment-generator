@@ -17,6 +17,7 @@ const nameMessage = document.querySelector('.name-message');
 const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
+const randomImage = document.getElementById('random-image');
 
 // Name Button Function
 nameButton.addEventListener('click', function (e) {
@@ -78,6 +79,21 @@ function updateQuote() {
 	quoteMessage.innerText = quoteRandom("h3");
 }
 
+//Random Image Array
+const images = [
+	{
+		alt: "Two young girls sharing secrets",
+		src: "img/girls-whispering.jpg"
+	},
+];
+
+//Random Image Generator Function
+function randomImage() {
+	const imageIndex= images[Math.floor(Math.random() * images.length)];
+	randomImage.src = image.src;
+	randomImage.alt = image.alt;
+}
+
 // Compliment Button Function
 compButton.addEventListener('click', function () {
 	const compliment = message.innerText;
@@ -90,18 +106,9 @@ compButton.addEventListener('click', function () {
 		message.append(newCompliment);
 	};
 	updateQuote();
+	randomImage();
 
 });
-
-//Random Image Generator Function
-function randomImage() {
-	const images = [
-		{
-			alt: "Two young girls sharing secrets",
-			src: "img/girls-whispering.jpg"
-		},
-	]
-}
 
 
 // Updates Copyright Footer
