@@ -23,7 +23,7 @@ h1 {
   font-family: "Sweety Bakery", cursive;
   font-size: 4.5rem;
   line-height: 5rem;
-  color: #fe00ac;
+  color: #0180c5;
   margin: 10px 0;
   text-align: center;
 }
@@ -97,7 +97,7 @@ h4 {
   margin: 20px auto;
   padding: 10px;
   background-color: #7a25a7;
-  border: 5px solid #fe00ac;
+  border: 5px solid #0180c5;
   border-radius: 70px;
   text-align: center;
 }
@@ -123,7 +123,7 @@ h4 {
   margin: 20px auto;
   padding: 10px;
   background-color: #7a25a7;
-  border: 5px solid #fe00ac;
+  border: 5px solid #0180c5;
   border-radius: 70px;
   align-items: center;
 }
@@ -136,7 +136,7 @@ h4 {
 .name-request .submit-button:hover {
   background-color: #031134;
   color: #b194fc;
-  border: 5px solid #fe00ac;
+  border: 5px solid #0180c5;
 }
 .name-request .name-message {
   width: 90%;
@@ -166,7 +166,7 @@ h4 {
   margin: 40px 0;
 }
 .compliment-view span {
-  color: #fe00ac;
+  color: #0180c5;
   text-decoration: underline;
 }
 .compliment-view .compliment {
@@ -183,7 +183,7 @@ h4 {
   margin: 40px auto;
   padding: 10px;
   background-color: #7a25a7;
-  border: 5px solid #fe00ac;
+  border: 5px solid #0180c5;
   border-radius: 70px;
   align-items: center;
 }
@@ -195,7 +195,7 @@ h4 {
 .compliment-view .compliment-button:hover {
   background-color: #031134;
   color: #b194fc;
-  border: 5px solid #fe00ac;
+  border: 5px solid #0180c5;
 }
 .compliment-view .quote {
   margin: 40px 0;
