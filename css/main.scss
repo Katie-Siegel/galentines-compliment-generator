@@ -40,7 +40,7 @@ h1 {
 h2 {
 	font-family: 'Snippet', sans-serif;
 	font-size: 1.5rem;
-	line-height: 1.7rem;
+	line-height: 2rem;
 	color: $color-text-medium;
 }
 
@@ -79,7 +79,7 @@ h4 {
 }
 
 .header-text {
-	padding: 1.5rem 0;
+	padding: 1.5rem 1rem;
 }
 
 .border {
@@ -150,6 +150,13 @@ h4 {
 			border: 5px solid $color-accent;
 			}
 				}
+		.name-message {
+			width: 90%;
+			margin: 30px auto;
+			color: $color-text-medium;
+			font-size: 3rem;
+			line-height: 3.5rem;
+		}
 		@include media-query(laptop) {
 			display: flex;
 			flex-flow: row wrap;

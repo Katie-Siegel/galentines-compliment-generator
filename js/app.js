@@ -1,15 +1,16 @@
 //Work in Progress: Galentine's Compliment Generator
-//Work Notes: 1. Add Request for Friend's Name
-//            2. Update Response to Include Friend's Name
+//Work Notes:
 //            3. Add options to:
 // 					- adjRandom()
 // 					- nounRandom()
 //                  - ideaOneRandom()
 //				    - ideaTwoRandom()
 //            4. Add options to quoteRandom()
-//            6. Add random picture generator for "Friendship Carousel"
+//            6. Add images to randomImage() array
 //			  7. Add Picture Dontation Function for "Friendship Carousel"
 // 			  8. Reformat JavavScript to React.js
+//			  9. Correct a/an in generatedCompliment() function
+//            10. Add "Share Your Compliment" Function
 
 
 const nameInput = document.getElementById('name');
@@ -18,6 +19,7 @@ const nameMessage = document.querySelector('.name-message');
 const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
+const image = document.getElementById('random-image');
 
 // Name Button Function
 nameButton.addEventListener('click', function (e) {
@@ -79,6 +81,29 @@ function updateQuote() {
 	quoteMessage.innerText = quoteRandom("h3");
 }
 
+//Random Image Array
+const images = [
+	{
+		alt: "Two young girls sharing secrets",
+		src: "img/girls-whispering.jpg"
+	},
+	{
+		alt: "Two young girls hugging",
+		src: "img/girls-hugging.jpg"
+	},
+	{
+		alt: "Two young girls laughing",
+		src: "img/girls-laughing.jpg"
+	}
+];
+
+//Random Image Generator Function
+function randomImage() {
+	const imageIndex = images[Math.floor(Math.random() * images.length)];
+	return image.src = images[imageIndex].src;
+	return image.alt = images[imageIndex].alt;
+}
+
 // Compliment Button Function
 compButton.addEventListener('click', function () {
 	const compliment = message.innerText;
@@ -91,8 +116,10 @@ compButton.addEventListener('click', function () {
 		message.append(newCompliment);
 	};
 	updateQuote();
+	randomImage();
 
 });
+
 
 // Updates Copyright Footer
 const year = document.querySelector(

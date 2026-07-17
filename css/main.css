@@ -1,6 +1,6 @@
 html {
   font-size: 14px;
-  background-color: #17e0bc;
+  background-color: #7a25a7;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
@@ -15,15 +15,15 @@ body {
   font-family: "Sweety Bakery", "Snippet", "Heebo", sans-serif;
   font-size: 2rem;
   line-height: 1.7rem;
-  color: #17e0bc;
-  background-color: #0e186f;
+  color: #b194fc;
+  background-color: #031134;
 }
 
 h1 {
   font-family: "Sweety Bakery", cursive;
   font-size: 4.5rem;
   line-height: 5rem;
-  color: #fe00ac;
+  color: #0180c5;
   margin: 10px 0;
   text-align: center;
 }
@@ -31,15 +31,15 @@ h1 {
 h2 {
   font-family: "Snippet", sans-serif;
   font-size: 1.5rem;
-  line-height: 1.7rem;
-  color: #8300c0;
+  line-height: 2rem;
+  color: #e38fdc;
 }
 
 h3 {
   font-family: "Sweety Bakery", "Snippet", "Heebo", sans-serif;
   font-size: 3rem;
   line-height: 3.5rem;
-  color: #17e0bc;
+  color: #b194fc;
   margin: 50px 0;
 }
 
@@ -47,7 +47,7 @@ h4 {
   font-family: "Sweety Bakery", "Heebo", sans-serif;
   font-size: 2.5rem;
   line-height: 3rem;
-  color: #8300c0;
+  color: #e38fdc;
 }
 
 .content-wrapper {
@@ -70,11 +70,11 @@ h4 {
 }
 
 .header-text {
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
 }
 
 .border {
-  border: 2px solid #17e0bc;
+  border: 2px solid #7a25a7;
   width: 100%;
 }
 
@@ -96,17 +96,17 @@ h4 {
   font-size: 1.25rem;
   margin: 20px auto;
   padding: 10px;
-  background-color: #17e0bc;
-  border: 5px solid #fe00ac;
+  background-color: #7a25a7;
+  border: 5px solid #0180c5;
   border-radius: 70px;
   text-align: center;
 }
 .name-request input::-moz-placeholder {
-  color: #8300c0;
+  color: #e38fdc;
   font-family: "Snippet", cursive;
 }
 .name-request input::placeholder {
-  color: #8300c0;
+  color: #e38fdc;
   font-family: "Snippet", cursive;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -118,12 +118,12 @@ h4 {
 .name-request .submit-button {
   width: 50vw;
   font-family: "Snippet", cursive;
-  color: #8300c0;
+  color: #e38fdc;
   font-size: 1.25rem;
   margin: 20px auto;
   padding: 10px;
-  background-color: #17e0bc;
-  border: 5px solid #fe00ac;
+  background-color: #7a25a7;
+  border: 5px solid #0180c5;
   border-radius: 70px;
   align-items: center;
 }
@@ -134,9 +134,16 @@ h4 {
   }
 }
 .name-request .submit-button:hover {
-  background-color: #0e186f;
-  color: #17e0bc;
-  border: 5px solid #fe00ac;
+  background-color: #031134;
+  color: #b194fc;
+  border: 5px solid #0180c5;
+}
+.name-request .name-message {
+  width: 90%;
+  margin: 30px auto;
+  color: #e38fdc;
+  font-size: 3rem;
+  line-height: 3.5rem;
 }
 @media screen and (min-width: 1025px) {
   .name-request {
@@ -159,7 +166,7 @@ h4 {
   margin: 40px 0;
 }
 .compliment-view span {
-  color: #fe00ac;
+  color: #0180c5;
   text-decoration: underline;
 }
 .compliment-view .compliment {
@@ -170,13 +177,13 @@ h4 {
 .compliment-view .compliment-button {
   width: 90%;
   font-family: "Sweety Bakery", cursive;
-  color: #8300c0;
+  color: #e38fdc;
   font-size: 2rem;
   line-height: 2.15rem;
   margin: 40px auto;
   padding: 10px;
-  background-color: #17e0bc;
-  border: 5px solid #fe00ac;
+  background-color: #7a25a7;
+  border: 5px solid #0180c5;
   border-radius: 70px;
   align-items: center;
 }
@@ -186,15 +193,15 @@ h4 {
   }
 }
 .compliment-view .compliment-button:hover {
-  background-color: #0e186f;
-  color: #17e0bc;
-  border: 5px solid #fe00ac;
+  background-color: #031134;
+  color: #b194fc;
+  border: 5px solid #0180c5;
 }
 .compliment-view .quote {
   margin: 40px 0;
   font-size: 2.5rem;
   line-height: 3rem;
-  color: #8300c0;
+  color: #e38fdc;
 }
 
 .footer {
