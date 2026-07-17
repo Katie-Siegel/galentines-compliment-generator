@@ -17,7 +17,7 @@ const nameMessage = document.querySelector('.name-message');
 const message = document.querySelector('.compliment');
 const compButton = document.querySelector('.compliment-button');
 const quoteMessage = document.querySelector('.quote');
-const randomImage = document.getElementById('random-image');
+const image = document.getElementById('random-image');
 
 // Name Button Function
 nameButton.addEventListener('click', function (e) {
@@ -97,10 +97,9 @@ const images = [
 
 //Random Image Generator Function
 function randomImage() {
-	const imageIndex= images[Math.floor(Math.random() * images.length)];
-	randomImage.src = imageIndex.src;
-	randomImage.alt = image.alt;
-	return randomImage;
+	const imageIndex = images[Math.floor(Math.random() * images.length)];
+	return image.src = images[imageIndex].src;
+	return image.alt = images[imageIndex].alt;
 }
 
 // Compliment Button Function
