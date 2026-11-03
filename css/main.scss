@@ -103,9 +103,15 @@ h4 {
 	h3 {
 		width: 90%;
 	}
+	label {
+		width: 90%;
+		font-size: 2rem;
+		line-height: 2.5rem;
+		margin: 20px auto;
+	}
 	input {
 		width: 50vw;
-		font-size: 1.25rem;
+		font-size: 1.2rem;
 		margin: 20px auto;
 		padding: 10px 20px;
 		background-color: $color-bg-light;
@@ -115,6 +121,7 @@ h4 {
 		&::placeholder {
 			color: $color-text-medium;
 			font-family: 'Snippet', cursive;
+			align-text: center;
 		}
 		@include media-query(tablet) {
 			font-size: 2rem;

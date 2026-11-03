@@ -91,9 +91,15 @@ h4 {
 .name-request h3 {
   width: 90%;
 }
+.name-request label {
+  width: 90%;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 20px auto;
+}
 .name-request input {
   width: 50vw;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #7a25a7;
@@ -104,10 +110,12 @@ h4 {
 .name-request input::-moz-placeholder {
   color: #e38fdc;
   font-family: "Snippet", cursive;
+  align-text: center;
 }
 .name-request input::placeholder {
   color: #e38fdc;
   font-family: "Snippet", cursive;
+  align-text: center;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .name-request input {
