@@ -228,11 +228,11 @@ const images = [
 	},
 	{
 		alt: 'Two young girls hugging',
-		src: 'img/girls-hugging.jpg',
+		src: 'img/women-hugging.jpg',
 	},
 	{
-		alt: 'Two young girls laughing',
-		src: 'img/girls-laughing.jpg',
+		alt: 'Three young girls drinking wine and laughing',
+		src: 'img/three-girls-drinking.jpg',
 	},
 ];
 
