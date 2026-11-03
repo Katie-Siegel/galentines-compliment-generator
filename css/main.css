@@ -148,7 +148,7 @@ h4 {
 }
 .name-request .name-message {
   width: 90%;
-  margin: 30px auto;
+  margin: 20px auto;
   color: #e38fdc;
   font-size: 3rem;
   line-height: 3.5rem;
@@ -213,7 +213,7 @@ h4 {
 }
 
 .footer {
-  margin-top: 40px;
+  margin: 10px;
   font-size: 1.5rem;
 }
 
