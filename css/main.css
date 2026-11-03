@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 12px;
   background-color: #7a25a7;
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -40,7 +40,7 @@ h3 {
   font-size: 3rem;
   line-height: 3.5rem;
   color: #b194fc;
-  margin: 50px 0;
+  margin: 10px 0;
 }
 
 h4 {
@@ -91,11 +91,17 @@ h4 {
 .name-request h3 {
   width: 90%;
 }
+.name-request label {
+  width: 90%;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 20px auto;
+}
 .name-request input {
   width: 50vw;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin: 20px auto;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: #7a25a7;
   border: 5px solid #0180c5;
   border-radius: 70px;
@@ -104,10 +110,12 @@ h4 {
 .name-request input::-moz-placeholder {
   color: #e38fdc;
   font-family: "Snippet", cursive;
+  align-text: center;
 }
 .name-request input::placeholder {
   color: #e38fdc;
   font-family: "Snippet", cursive;
+  align-text: center;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .name-request input {
@@ -140,7 +148,7 @@ h4 {
 }
 .name-request .name-message {
   width: 90%;
-  margin: 30px auto;
+  margin: 20px auto;
   color: #e38fdc;
   font-size: 3rem;
   line-height: 3.5rem;
@@ -205,7 +213,7 @@ h4 {
 }
 
 .footer {
-  margin-top: 40px;
+  margin: 10px;
   font-size: 1.5rem;
 }
 
