@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 12px;
   background-color: #7a25a7;
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -40,7 +40,7 @@ h3 {
   font-size: 3rem;
   line-height: 3.5rem;
   color: #b194fc;
-  margin: 50px 0;
+  margin: 10px 0;
 }
 
 h4 {
@@ -95,7 +95,7 @@ h4 {
   width: 50vw;
   font-size: 1.25rem;
   margin: 20px auto;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: #7a25a7;
   border: 5px solid #0180c5;
   border-radius: 70px;
